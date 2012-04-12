@@ -21,7 +21,7 @@ tagline: We love Ruby, Hiroshima, and more...
 * Rubyを使っている人
 * Rubyに興味ある人
 * Rubyで作られたアプリを使用している人
-* Ruby以外のLL(Liteweight Language)に興味があったり、使っている人
+* Ruby以外のLL(Lightweight Language)に興味があったり、使っている人
 * プログラミングに関係なくRubyが好きな人
 * とにかく広島を盛り上げたい人- 広島に限らず地域コミュニティーを盛り上げたい人
 
