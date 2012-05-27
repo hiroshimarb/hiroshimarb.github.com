@@ -89,3 +89,7 @@ git commit -m "更新の内容"
 git push
 {% endcodeblock %}
 ```
+
+# さらなる情報
+
+[Octopressのメモ](/docs/octopress)
