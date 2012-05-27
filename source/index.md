@@ -22,6 +22,10 @@ layout: page
 * プログラミングに関係なくRubyが好きな人
 * とにかく広島を盛り上げたい人- 広島に限らず地域コミュニティーを盛り上げたい人
 
+## コンテンツ
+
+- [hiroshima.rbのサイトを更新しよう](/HowToUpdateWebSite/)
+
 ## ロゴについて
 
 ロゴの作成には [milligramme](http://flavors.me/milligramme/) さんにお願いしました。
