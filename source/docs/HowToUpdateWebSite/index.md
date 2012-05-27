@@ -19,10 +19,10 @@ ruby 1.9.2 以降が必要になります。rbenvを利用したインストー�
 更新するためにはまず github からデータを取得する必要があります。
 作業をするディレクトリで以下のようにします。
 
-{% codeblock lang:bash %}
+``` bash
 git clone git@github.com:hiroshimarb/hiroshimarb.github.com.git
 cd hiroshimarb.github.com
-{% endcodeblock %}
+```
 
 # ページの作成しよう
 
@@ -53,9 +53,9 @@ rake "new_page[ページ名]"
 ページを作成したら、どのように表示されるかプレビューしてみましょう。
 以下のコマンドでサーバを立ち上げることができます。
 
-{% codeblock lang:bash %}
+``` bash
 rake preview
-{% endcodeblock %}
+```
 
 サーバはポート 4000 で起動します。[http://localhost:4000](http://localhost:4000)にアクセスしてみましょう。
 
@@ -64,16 +64,17 @@ rake preview
 ページを作成したら、インターネットに接続している誰もが閲覧できるように公開しましょう。
 まずは公開先の設定をしましょう。
 
-{% codeblock %}
+``` bash
 rake 'setup_github_pages[git@github.com:hiroshimarb/hiroshimarb.github.com.git]'
-{% endcodeblock %}
+```
+
 これは一度だけ行えば大丈夫です。
 
 公開には、以下のコマンドを使用します。
 
-{% codeblock lang:bash %}
+```bash
 rake gen_deploy
-{% endcodeblock %}
+```
 
 作成したページを実際に表示してちゃんと公開されているか確認しましょう。
 
@@ -82,8 +83,9 @@ rake gen_deploy
 ページの公開はできましたが、他の人と更新を共有できるようにcommitしましょう。
 `git`の使い方になってしまうので、ここでは簡便に書きます。
 
-{% codeblock %}
+``` bash
 git add .
 git commit -m "更新の内容"
 git push
 {% endcodeblock %}
+```

@@ -24,7 +24,7 @@ layout: page
 
 ## コンテンツ
 
-- [hiroshima.rbのサイトを更新しよう](/HowToUpdateWebSite/)
+- [hiroshima.rbのサイトを更新しよう](/docs/HowToUpdateWebSite/)
 
 ## ロゴについて
 
