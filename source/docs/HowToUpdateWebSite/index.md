@@ -29,7 +29,7 @@ cd hiroshimarb.github.com
 ページを作成するには所定の位置にファイルを作成するだけですが、`rake`コマンドを利用してコードジェネレートできます。現状では日本語にしないほうがよさそうです。
 
 {% codeblock lang:bash %}
-orake new_page[ページ名]
+rake new_page[ページ名]
 {% endcodeblock %}
 
 zshを使用している場合、うまく動いてくれません。クオートしましょう。
@@ -87,7 +87,6 @@ rake gen_deploy
 git add .
 git commit -m "更新の内容"
 git push
-{% endcodeblock %}
 ```
 
 # さらなる情報
