@@ -12,7 +12,7 @@ layout: page
 
 ## ロゴについて
 
-ロゴの作成には [milligramme](http://flavors.me/milligramme/) さんにお願いしました。
+ロゴの作成には [milligramme](http://www.milligramme.cc/) さんにお願いしました。
 <code>Ruby</code>に広島の県花である<code>もみじ</code>を加えています。
 
 <img src="https://github.com/milligramme/hiroshimarb_logo/raw/master/hiroshimarb-square.png" width="320" height="320" />
