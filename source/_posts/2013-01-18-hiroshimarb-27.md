@@ -14,8 +14,9 @@ categories: ["勉強会"]
 
 # 予定している内容
 
-* たまにはリファレンスをよみなおそう。その6(未定)
-* 今月の活動報告
+* たまにはリファレンスをよみなおそう。その6(未定) [@eielh]()
+* TDDのさわり(rspecとかcucumberとか) [@moriC](https://twitter.com/CentBoss)
+* 今月の活動報告 [@eielh]()
 * 募集中
 
 <table>
