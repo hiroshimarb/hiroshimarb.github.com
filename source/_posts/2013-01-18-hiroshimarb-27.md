@@ -12,12 +12,19 @@ categories: ["勉強会"]
 事前の参加申し込みは [Partake](http://partake.in/events/dfc06b53-2ff2-4165-b00b-f7667873eeac) からお願いします。
 発表者は随時募集中です。もうしこみ時にコメントしたり、[@eielh](https://twitter.com/eielh)などに気軽に連絡ください。
 
-# 予定している内容
+# 内容
 
-* たまにはリファレンスをよみなおそう。その6(未定) [@eielh]()
-* TDDのさわり(rspecとかcucumberとか) [@moriC](https://twitter.com/CentBoss)
-* 今月の活動報告 [@eielh]()
-* 募集中
+* 標準ライブラリとか探検してみようかな - Fiber @eielh
+* Fiber のサンプルをかいてみた @eielh 
+* TDDを勉強してみた(RspecとかCucumberとか) @CentBoss
+* Emacsを使ってrubyのWebアプリを作って見た！！[@ueki]
+* Neg (JSON parser　の作り方) @jmettraux
+* Excel Snake @touni102
+* Rails Guide 翻訳しようぜ @eielh
+* 12月、1月の活動報告
+
+[Wikiによるメモ](https://github.com/hiroshimarb/hiroshimarb.github.com/wiki/2013%E5%B9%B42%E6%9C%88%E3%81%AE%E6%B4%BB%E5%8B%95)
+
 
 <table>
 <tr><td>日時  </td><td>2012/02/02(土) 14:00-18:00</td></tr>
