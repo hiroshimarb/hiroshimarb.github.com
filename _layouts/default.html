@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hiroshima.rb">
+    <link rel="canonical" href="http://hiroshimarb.github.com">
+    <link href="/atom.xml" rel="alternate" title="Hiroshima.rb" type="application/atom+xml">
+    <title>
+      {% if page.title %}{{ page.title }} - {% endif %}
+      {{ site.title }}
+    </title>
+    <link href="/stylesheets/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="/stylesheets/bootstrap-responsive.css" rel="stylesheet" media="screen">
+    <link href="/stylesheets/style.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+        <hgroup>
+          <h1>{{ site.title }}</h1>
+          <h2>{{ site.subtitle }}</h2>
+        </hgroup>
+      </header>
+      <div class="container-fluid">
+        <div class="row-fluid">
+          <div class="span12">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="container">
+        <p class="credit">copyright 2010-2013 Hiroshima.rb</p>
+      </div>
+    </footer>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="/javascripts/bootstrap.js"></script>
+  </body>
+</html>

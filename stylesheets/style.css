@@ -1,0 +1,71 @@
+body {
+    font-family:  Lato, 'Helvetica Neue', Helvetica, "ヒラギノ明朝 Pro W6", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", Arial serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+hgroup {
+    background-color: #9E005D;
+    margin: -10px 0 40px 0;
+    padding: 40px 0 20px 40px;
+    color: white;
+}
+
+@media (max-width: 767px) {
+    hgroup {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+h1 {
+    margin: 20px;
+}
+
+hgroup h1 {
+    padding: 0;
+    margin: 0;
+}
+
+hgroup h2 {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -46px;
+}
+
+#footer {
+    background-color: #9E005D;
+    color: white;
+    height: 44px;
+}
+
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.credit {
+    margin: 14px 0;
+}
+
+.hidden {
+    visibility: hidden;
+    block: none;
+}

@@ -1,0 +1,16 @@
+# website config
+title: Hiroshima.rb
+subtitle: We love Ruby, Hiroshima, and more...
+author: Hiroshima.rb
+url: http://hiroshimarb.github.com
+
+# jekill config
+safe: true
+lsi: false
+pygments: true
+markdown: redcarpet
+permalink: /blog/:year/:month/:day/:title
+exclude: [Gemfile, Gemfile.lock Rakefile]
+
+redcarpet:
+  extensions: [tables,autolink,strikethrough]
