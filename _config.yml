@@ -10,7 +10,7 @@ lsi: false
 pygments: true
 markdown: redcarpet
 permalink: /blog/:year/:month/:day/:title
-exclude: [Gemfile, Gemfile.lock Rakefile]
+exclude: [Gemfile, Gemfile.lock Rakefile, README.md]
 
 redcarpet:
   extensions: [tables,autolink,strikethrough]
