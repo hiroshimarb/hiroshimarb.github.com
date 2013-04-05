@@ -6,6 +6,8 @@ layout: default
 
 {% include hiroshimarb/info %}
 
+<small>[もう少し具体的に](/about.html)</small>
+
 最近の記事
 ================================================================================
 
