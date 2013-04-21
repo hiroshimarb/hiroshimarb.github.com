@@ -4,27 +4,24 @@ body {
 
 html,
 body {
-    height: 100%;
+	margin: 0;
+	padding: 0;
+	
 }
 
-hgroup {
+header {
+	width: 100%;
+	margin-bottom: 30px;
     background-color: #9E005D;
-    margin: -10px 0 40px 0;
-    padding: 40px 0 20px 40px;
     color: white;
-}
-
-@media (max-width: 767px) {
-    hgroup {
-        margin-left: -20px;
-        margin-right: -20px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
 }
 
 h1 {
     margin: 20px;
+}
+
+hgroup{
+	padding: 20px;
 }
 
 hgroup h1 {
@@ -39,25 +36,21 @@ hgroup h2 {
 }
 
 #wrap {
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 #footer {
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
     background-color: #9E005D;
     color: white;
-    height: 44px;
 }
 
-@media (max-width: 767px) {
-    #footer {
-        margin-left: -20px;
-        margin-right: -20px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
-.credit {
-    margin: 14px 0;
+#footer .container{
+	padding: 0 10px;
 }
 
 .hidden {
