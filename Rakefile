@@ -1,4 +1,4 @@
 desc 'preview'
 task :preview do
-  sh 'jekyll --server --auto'
+  sh 'jekyll serve --watch'
 end
