@@ -1,0 +1,25 @@
+<div itemscope itemtype="http://schema.org/Event">
+  <table>
+    <tbody>
+      <tr>
+        <td>日時</td>
+        <td><span itemprop="startDate" content="{{ page.date | date: "%Y-%m-%dT%H:%M" }}">2013/07/06(土) 14:00</span>-18:00</td>
+      </tr>
+      <tr itemprop="location" itemscope itemtype="http://schema.org/Place">
+        <td>場所</td>
+        <td itemprop="name">{{ page.place }}</td>
+        <td itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <meta itemprop="streetAddress" content="{{ page.address }}">
+          <meta itemprop="addressLocality" content="広島市">
+          <meta itemprop="addressRegion" content="広島県">
+          <meta itemprop="addressCountry" content="日本">
+          <meta itemprop="postalCode" content="7300011">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <meta itemprop="name" content="{{ page.title }}">
+  <meta itemprop="image" content="https://github.com/milligramme/hiroshimarb_logo/raw/master/hiroshimarb-square.png">
+  <meta itemprop="description" content="広島Ruby勉強会 最近勉強したことを発表して、勉強したり、お互い影響を与えたりする勉強会です。主なテーマはプログラミング言語 Ruby です。">
+  <meta itemprop="url" content="http://hiroshimarb.github.io/blog/2013/07/06/hiroshimarb-32/">
+</div>
