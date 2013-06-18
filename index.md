@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<img src="https://github.com/milligramme/hiroshimarb_logo/raw/master/hiroshimarb-horizontal.png" width="500" height="100" />
-
 {% include hiroshimarb/info %}
 
 <small>[もう少し具体的に](/about.html)</small>
@@ -35,3 +33,4 @@ layout: default
 * [メーリングリスト](https://groups.google.com/forum/?hl=ja&fromgroups#!forum/hiroshimarb)
 * [旧ウェブサイト](https://sites.google.com/site/hiroshimarb/)
 
+<img src="https://github.com/milligramme/hiroshimarb_logo/raw/master/hiroshimarb-horizontal.png" width="500" height="100" />

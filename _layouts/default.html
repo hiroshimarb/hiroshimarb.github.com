@@ -10,22 +10,22 @@
       {% if page.title %}{{ page.title }} - {% endif %}
       {{ site.title }}
     </title>
-    <link href="/stylesheets/bootstrap.css" rel="stylesheet" media="screen">
-    <link href="/stylesheets/bootstrap-responsive.css" rel="stylesheet" media="screen">
     <link href="/stylesheets/style.css" rel="stylesheet" media="screen">
   </head>
   <body>
     <div id="wrap">
       <header>
-        <hgroup>
-          <h1>{{ site.title }}</h1>
+        <section>
+          <a href="/"><h1>{{ site.title }}</h1></a>
           <h2>{{ site.subtitle }}</h2>
-        </hgroup>
+        </section>
       </header>
       <div class="container-fluid">
         <div class="row-fluid">
-          <div class="span12">
+          <div class="span9">
+            <article>
              {{ content }}
+            </article>
           </div>
         </div>
       </div>
@@ -36,6 +36,5 @@
       </div>
     </footer>
     <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="/javascripts/bootstrap.js"></script>
   </body>
 </html>
