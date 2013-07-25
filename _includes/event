@@ -3,7 +3,7 @@
     <tbody>
       <tr>
         <td>日時</td>
-        <td><span itemprop="startDate" content="{{ page.date | date: "%Y-%m-%dT%H:%M" }}">2013/07/06(土) 14:00</span>-18:00</td>
+        <td><span itemprop="startDate" content="{{ page.date | date: "%Y-%m-%dT%H:%M" }}">{{ page.date | date: "%Y-%m-%d" }}(土) 14:00</span>-18:00</td>
       </tr>
       <tr itemprop="location" itemscope itemtype="http://schema.org/Place">
         <td>場所</td>
