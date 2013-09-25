@@ -6,7 +6,7 @@ body {
 }
 
 a {
-    color: rgb(0, 121, 154);
+    text-decoration: none;
 }
 
 html,
