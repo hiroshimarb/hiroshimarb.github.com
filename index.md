@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<script type="application/ld+json">
+{% include jsonld.json %}
+</script>
+
 {% include hiroshimarb/info %}
 
 <small>[もう少し具体的に](/about.html)</small>

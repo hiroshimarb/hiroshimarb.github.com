@@ -1,0 +1,335 @@
+{
+  "@context": {
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "http://hiroshimarb.github.io/",
+      "@type": "schema:Organization",
+      "schema:name": "Hiroshima.rb"
+    },
+    {
+      "@id": "http://hiroshimarb.github.io/member/Nyoho",
+      "@type": "schema:Person",
+      "schema:description": "Hiroshima.rb やその会長を使って勉強をする係",
+      "schema:name": "KITADAI, Yukinori",
+      "schema:url": [
+        {
+          "@id": "http://github.com/Nyoho"
+        },
+        {
+          "@id": "http://twitter.com/NeXTSTEP2OSX"
+        },
+        {
+          "@id": "http://nyoho.jp"
+        }
+      ]
+    },
+    {
+      "@id": "http://hiroshimarb.github.io/member/Torokun",
+      "@type": "schema:Person",
+      "schema:description": "たまにもくもくしに参加してます。Rubyは使ったことがない初心者です・・・。",
+      "schema:name": "Kazuya Matsubara",
+      "schema:url": [
+        {
+          "@id": "http://github.com/Torokun"
+        },
+        {
+          "@id": "http://twitter.com/Toro_kun"
+        },
+        {
+          "@id": "http://switch.dip.jp/toro/blog/"
+        }
+      ]
+    },
+    {
+      "@id": "http://hiroshimarb.github.io/member/akira345",
+      "@type": "schema:Person",
+      "schema:description": "Hiroshima.rbで会長を困らせる係。最近WindowsPhoneに浮気気味な趣味人。ハード好き。",
+      "schema:name": "Akira345",
+      "schema:url": [
+        {
+          "@id": "http://github.com/akira345"
+        },
+        {
+          "@id": "http://twitter.com/akira345"
+        },
+        {
+          "@id": "http://akira-junkbox.blogspot.com"
+        }
+      ]
+    },
+    {
+      "@id": "http://hiroshimarb.github.io/member/eiel",
+      "@type": "schema:Person",
+      "schema:description": "Hiroshima.rb の会場確保係。会長ではない。",
+      "schema:name": "Tomohiko Himura",
+      "schema:url": [
+        {
+          "@id": "http://github.com/eiel"
+        },
+        {
+          "@id": "http://twitter.com/eielh"
+        },
+        {
+          "@id": "http://eiel.info/"
+        }
+      ]
+    },
+    {
+      "@id": "http://hiroshimarb.github.io/member/furu",
+      "@type": "schema:Person",
+      "schema:description": "hi",
+      "schema:name": "Tatsuya Furukido",
+      "schema:url": [
+        {
+          "@id": "http://github.com/furu"
+        },
+        {
+          "@id": "http://twitter.com/pecosantoyobe"
+        },
+        {
+          "@id": "example.com"
+        }
+      ]
+    },
+    {
+      "@id": "http://hiroshimarb.github.io/member/hrykoda",
+      "@type": "schema:Person",
+      "schema:description": "仕事ではJavaを使っています。たまにPerlを使います。Rubyはこれから使ってみます。",
+      "schema:name": "Hiroyuki Oda",
+      "schema:url": [
+        {
+          "@id": "http://github.com/hrykoda"
+        },
+        {
+          "@id": "http://twitter.com/hrykoda"
+        },
+        {
+          "@id": "nill"
+        }
+      ]
+    },
+    {
+      "@id": "http://hiroshimarb.github.io/member/jmettraux",
+      "@type": "schema:Person",
+      "schema:description": "スイス人、チーズがすき",
+      "schema:name": "John Mettraux",
+      "schema:url": [
+        {
+          "@id": "http://github.com/jmettraux"
+        },
+        {
+          "@id": "http://twitter.com/jmettraux"
+        },
+        {
+          "@id": "http://lambda.io/jmettraux"
+        }
+      ]
+    },
+    {
+      "@id": "http://hiroshimarb.github.io/member/kakenavi",
+      "@type": "schema:Person",
+      "schema:description": "",
+      "schema:name": "Kakenavi",
+      "schema:url": [
+        {
+          "@id": "http://github.com/kakenavi"
+        },
+        {
+          "@id": "http://twitter.com/kakenavi"
+        },
+        {
+          "@id": "http://kakenavi.blog.fc2.com/"
+        }
+      ]
+    },
+    {
+      "@id": "http://hiroshimarb.github.io/member/kama-t",
+      "@type": "schema:Person",
+      "schema:description": "hi",
+      "schema:name": "Takanobu Kamada",
+      "schema:url": [
+        {
+          "@id": "http://github.com/kama-t"
+        },
+        {
+          "@id": "http://twitter.com/nill"
+        },
+        {
+          "@id": "example.com"
+        }
+      ]
+    },
+    {
+      "@id": "http://hiroshimarb.github.io/member/kamera25",
+      "@type": "schema:Person",
+      "schema:description": "Hiroshima.rbの見習い。今後はmrubyを勉強したい。",
+      "schema:name": "Takahiro Nakaoku",
+      "schema:url": [
+        {
+          "@id": "http://github.com/kamera25"
+        },
+        {
+          "@id": "http://twitter.com/csc_kamera25"
+        },
+        {
+          "@id": "http://religion.indiesj.com/"
+        }
+      ]
+    },
+    {
+      "@id": "http://hiroshimarb.github.io/member/kanjihtmt",
+      "@type": "schema:Person",
+      "schema:description": "ぺちぱーです。来年からはRubyに移行しようと勉強中です。よろしくお願いします。",
+      "schema:name": "Kanji Hatamoto",
+      "schema:url": [
+        {
+          "@id": "http://github.com/kanjihtmt"
+        },
+        {
+          "@id": "http://twitter.com/kanjihtmt"
+        },
+        {
+          "@id": "example.com"
+        }
+      ]
+    },
+    {
+      "@id": "http://hiroshimarb.github.io/member/majosystems",
+      "@type": "schema:Person",
+      "schema:description": "なかなか参加できてませんが・・・勉強中です",
+      "schema:name": "Takashi Akagi",
+      "schema:url": [
+        {
+          "@id": "http://github.com/majosystems"
+        },
+        {
+          "@id": "http://twitter.com/majosystems"
+        },
+        {
+          "@id": "http://majosystems.com"
+        }
+      ]
+    },
+    {
+      "@id": "http://hiroshimarb.github.io/member/makowis",
+      "@type": "schema:Person",
+      "schema:description": "岡山で何故かハーレムさんって呼ばれてます。Rubyはあんまり触ってないです。",
+      "schema:name": "Makoto Henmi",
+      "schema:url": [
+        {
+          "@id": "http://github.com/makowis"
+        },
+        {
+          "@id": "http://twitter.com/mako_wis"
+        },
+        {
+          "@id": "nill"
+        }
+      ]
+    },
+    {
+      "@id": "http://hiroshimarb.github.io/member/moriC",
+      "@type": "schema:Person",
+      "schema:description": "よろしくお願いします",
+      "schema:name": "Tomohiro Morishita",
+      "schema:url": [
+        {
+          "@id": "http://github.com/moriC"
+        },
+        {
+          "@id": "http://twitter.com/tomohiro_0219"
+        },
+        {
+          "@id": ""
+        }
+      ]
+    },
+    {
+      "@id": "http://hiroshimarb.github.io/member/nill",
+      "@type": "schema:Person",
+      "schema:description": "勉強中・・・",
+      "schema:name": "Hidetoshi Kawaguchi",
+      "schema:url": [
+        {
+          "@id": "http://github.com/nill"
+        },
+        {
+          "@id": "http://twitter.com/thethe3i9t"
+        },
+        {
+          "@id": "nill"
+        }
+      ]
+    },
+    {
+      "@id": "http://hiroshimarb.github.io/member/ogatomo",
+      "@type": "schema:Person",
+      "schema:description": "Ruby勉強中です。よろしくお願いします。",
+      "schema:name": "Tomokazu Ogawa",
+      "schema:url": [
+        {
+          "@id": "http://github.com/ogatomo"
+        },
+        {
+          "@id": "http://twitter.com/ogatomo"
+        },
+        {
+          "@id": ""
+        }
+      ]
+    },
+    {
+      "@id": "http://hiroshimarb.github.io/member/s-taichan",
+      "@type": "schema:Person",
+      "schema:description": "東京で武者修行中の学生です。広島に帰省したときは暖かく迎えてください。",
+      "schema:name": "Taichi Shindo",
+      "schema:url": [
+        {
+          "@id": "http://github.com/s-taichan"
+        },
+        {
+          "@id": "http://twitter.com/s_taichan"
+        },
+        {
+          "@id": "http://s-taichan.blogspot.jp/"
+        }
+      ]
+    },
+    {
+      "@id": "http://hiroshimarb.github.io/member/takata",
+      "@type": "schema:Person",
+      "schema:description": "仕事は開発では無くRuby初心者ですがよろしく",
+      "schema:name": "Yoshitake Takata",
+      "schema:url": [
+        {
+          "@id": "http://github.com/takata"
+        },
+        {
+          "@id": "http://twitter.com/takatayoshitake"
+        },
+        {
+          "@id": "http://www.takata.tk/"
+        }
+      ]
+    },
+    {
+      "@id": "http://hiroshimarb.github.io/member/touni102",
+      "@type": "schema:Person",
+      "schema:description": "広島市で英語教えてます。プログラミングは大学の専門でRubyをチャレンジしようと思います。",
+      "schema:name": "Anthony White",
+      "schema:url": [
+        {
+          "@id": "http://github.com/touni102"
+        },
+        {
+          "@id": "http://twitter.com/touni102"
+        },
+        {
+          "@id": "nill"
+        }
+      ]
+    }
+  ]
+}
